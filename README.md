@@ -1,22 +1,24 @@
 # Videoclub
 
-# Demo
-
-Demo disponible en el siguiente enlace: [http://videoclub-web.herokuapp.com/](http://videoclub-web.herokuapp.com/)
-
-La primera carga puede tardar en responder debido a que el servidor deberá levantarse (30 segundos).
-
-Puede usar el siguiente usuario para el login:  
-E-Mail Address: `admin1@email.com`  
-Password: `12345`  
+Aplicación web Laravel 5.
 
 # Install
 
+La aplicación requiere PHP 7.
+
+`cp .env.example .env`
+
+`php artisan key:generate`
+
 `php composer.phar install`
+
+Cree una base de datos postgres, mysql o similar y setee sus credenciales en el archivo .env.
 
 `php artisan migrate`
 
 `php artisan db:seed`
+
+`php artisan serve`
 
 # Screens
 
